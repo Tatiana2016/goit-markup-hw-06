@@ -429,8 +429,30 @@
                            
                         </li>
                     </ul>
+
+
                 </div>
+                <div class="form-footer">
+                    <form>
+                        <p class="name-form-footer">Підпишіться на розсилку</p>
+                        <div class="footer-input">
+                            <label for="user_email"></label>
+                            <input class="footer-input-email" type="email" name="email" id="user_email" placeholder="E-mail">
+                
+                
+                            <button class="footer-submit" type="submit" width=200 height=50>
+                                <p class="text-buttom-footer">Підписатися</p>
+                                <svg class="icon-icon-telegram" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-icon-telegram"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
            </div>
+           
+            
         </footer>
 
           <div class="backdrop is-hidden" data-modal>
@@ -441,6 +463,33 @@
                     </svg>
             
                 </button>
+
+                <p class="text-form">Залиште свої дані, ми вам передзвонимо</p>
+                <form action="" class="modal-form">
+                    <div class="form-blok">
+                        <label for="name" >Ім'я</label>
+                        <input type="text" name="name" id="name" placeholder="" autofocus>
+                    </div>
+                    <div class="form-blok">
+                        <label for="tel" >Телефон</label>
+                        <input type="tel" name="phone_number" id="tel" autofocus>
+                    </div>
+                    <div class="form-blok">
+                        <label for="email">Пошта</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="comment">
+                        <label for="comment">Коментар</label>
+                        <textarea type="text" id="comment" placeholder="Введіть текст">
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox" name="" id="checkbox">
+                        <label for="checkbox">Залиште свої дані, ми вам передзвонимо<a href="#">Умови договору</a></label>
+                    </div>
+                    
+                    <button type="submit">Відправити</button>
+
+                </form>
              </div>
 
           </div>
