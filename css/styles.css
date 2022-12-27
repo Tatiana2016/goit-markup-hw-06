@@ -920,9 +920,9 @@ appearance: none;
 .checkbox-label{
   font-size: 14px;
   line-height: 1.71; 
-  padding-left: 24px;
+  padding-left:23px ;
   letter-spacing: 0.03em;
-  
+  position: relative;
   color: #757575;
 }
 .checkbox-label a{
